@@ -1,0 +1,10 @@
+# Ignore all executables without extension
+*
+add . && git status/
+add . && git status.*
+
+# Keep .c files
+add . && git status.c
+
+# Ignore object files
+*.o
